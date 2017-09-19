@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> 1`] = `
+<div
+  className="ui inverted vertical segment"
+  style={
+    Object {
+      "padding": "5em 0em",
+    }
+  }
+>
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui inverted divided grid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="six wide column"
+        >
+          <h4
+            className="ui inverted header"
+          >
+            About
+          </h4>
+          <div
+            className="ui inverted link list"
+            role="list"
+          >
+            <a
+              className="item"
+              data-value={undefined}
+              href="https://github.com/ghrecommender"
+              onClick={[Function]}
+              role="listitem"
+            >
+              GitHub
+            </a>
+            <a
+              className="item"
+              data-value={undefined}
+              href="mailto:contact@ghrecommender.io"
+              onClick={[Function]}
+              role="listitem"
+            >
+              Contact us
+            </a>
+            <a
+              className="item"
+              data-value={undefined}
+              href="https://twitter.com/ghrecommender"
+              onClick={[Function]}
+              role="listitem"
+            >
+              Twitter
+            </a>
+          </div>
+        </div>
+        <div
+          className="six wide column"
+        >
+          <p>
+            Copyright © 2017  
+            <a
+              href="https://github.com/avli"
+            >
+              Andrey Lisin
+            </a>
+             and 
+            <a
+              href="http://github.com/yurtaev"
+            >
+              Egor Yurtaev
+            </a>
+          </p>
+          <p>
+            The code is licensed under MIT.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

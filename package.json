@@ -1,0 +1,55 @@
+{
+  "name": "ghrecommender",
+  "version": "0.1.0",
+  "description": "GHRecommender - personalized recommendations for GitHub projects based on information about repositories starred by the user",
+  "homepage": "https://ghrecommender.io",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Andrey Lisin",
+      "url": "https://github.com/avli"
+    },
+    {
+      "name": "Egor Yurtaev",
+      "url": "https://github.com/yurtaev"
+    }
+  ],
+  "private": true,
+  "dependencies": {
+    "raven-js": "^3.17.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-emoji": "^0.5.0",
+    "react-ga": "^2.2.0",
+    "react-linkify": "^0.2.1",
+    "react-particles-js": "^1.5.0",
+    "react-refetch": "^1.0.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "react-snapshot": "^1.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.73.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && react-snapshot",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "flow": "flow check",
+    "lint": "eslint ./src",
+    "upload": "aws s3 sync build/ s3://ghrecommender.io --cache-control max-age=86400 --acl=public-read",
+    "deploy": "yarn build && yarn upload"
+  },
+  "reactSnapshot": {
+    "include": ["/"],
+    "snapshotDelay": 300
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "enzyme": "^2.9.1",
+    "flow-bin": "^0.54.1",
+    "react-test-renderer": "^15.6.1"
+  }
+}

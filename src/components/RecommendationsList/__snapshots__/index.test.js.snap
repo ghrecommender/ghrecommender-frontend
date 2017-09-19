@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecommendationsList /> 1`] = `
+<div
+  className="ui divided selection relaxed list"
+  role="list"
+>
+  <a
+    className="item"
+    data-value={undefined}
+    href="https://github.com/mxstbr/react-boilerplate"
+    onClick={[Function]}
+    role="listitem"
+    target="_blank"
+  >
+    <i
+      aria-hidden="true"
+      className="github large icon middle aligned"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        <div>
+          <a
+            href="https://github.com/mxstbr/react-boilerplate"
+            target="_blank"
+          >
+            mxstbr/react-boilerplate
+          </a>
+        </div>
+      </div>
+      <div
+        className="description"
+      >
+        <span
+          className="Linkify"
+        >
+          <img
+            height="20px"
+            src="https://twemoji.maxcdn.com/svg/1f525.svg"
+            width="20px"
+          />
+           Quick setup for performance orientated, offline-first React.js applications featuring Redux, hot-reloading, PostCSS, react-router, ServiceWorker, AppCache, FontFaceObserver and Mocha.
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="item"
+    data-value={undefined}
+    href="https://github.com/nodejs/node"
+    onClick={[Function]}
+    role="listitem"
+    target="_blank"
+  >
+    <i
+      aria-hidden="true"
+      className="github large icon middle aligned"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        <div>
+          <a
+            href="https://github.com/nodejs/node"
+            target="_blank"
+          >
+            nodejs/node
+          </a>
+        </div>
+      </div>
+      <div
+        className="description"
+      >
+        <span
+          className="Linkify"
+        >
+          Node.js JavaScript runtime 
+          <img
+            height="20px"
+            src="https://twemoji.maxcdn.com/svg/2728.svg"
+            width="20px"
+          />
+          <img
+            height="20px"
+            src="https://twemoji.maxcdn.com/svg/1f422.svg"
+            width="20px"
+          />
+          <img
+            height="20px"
+            src="https://twemoji.maxcdn.com/svg/1f680.svg"
+            width="20px"
+          />
+          <img
+            height="20px"
+            src="https://twemoji.maxcdn.com/svg/2728.svg"
+            width="20px"
+          />
+        </span>
+      </div>
+    </div>
+  </a>
+  <a
+    className="item"
+    data-value={undefined}
+    href="https://github.com/FreeCodeCamp/FreeCodeCamp"
+    onClick={[Function]}
+    role="listitem"
+    target="_blank"
+  >
+    <i
+      aria-hidden="true"
+      className="github large icon middle aligned"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        <div>
+          <a
+            href="https://github.com/FreeCodeCamp/FreeCodeCamp"
+            target="_blank"
+          >
+            FreeCodeCamp/FreeCodeCamp
+          </a>
+        </div>
+      </div>
+      <div
+        className="description"
+      >
+        <span
+          className="Linkify"
+        >
+          The 
+          <a
+            href="http://FreeCodeCamp.com"
+            target="_blank"
+          >
+            http://FreeCodeCamp.com
+          </a>
+           open source codebase and curriculum. Learn to code and help nonprofits.
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
+`;

@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> 1`] = `
+<div>
+  <div
+    className="ui inverted vertical center aligned segment"
+    style={
+      Object {
+        "minHeight": "100vh",
+        "padding": "1em 0em",
+      }
+    }
+  >
+    <div
+      className="ui container"
+      style={
+        Object {
+          "position": "inherit",
+          "zIndex": 999,
+        }
+      }
+    >
+      <div
+        className="ui large inverted pointing secondary menu"
+      >
+        <a
+          className="active item"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <a
+          className="item"
+          onClick={[Function]}
+        >
+          How it Works
+        </a>
+      </div>
+    </div>
+    <div
+      className="ui text container"
+      style={
+        Object {
+          "position": "inherit",
+          "zIndex": 999,
+        }
+      }
+    >
+      <div>
+        <div>
+          <h1
+            className="ui inverted header"
+            style={
+              Object {
+                "fontSize": "4em",
+                "fontWeight": "normal",
+                "marginBottom": 0,
+                "marginTop": "3em",
+              }
+            }
+          >
+            GHRecommender
+          </h1>
+          <h2
+            className="ui inverted header"
+            style={
+              Object {
+                "fontSize": "1.7em",
+                "fontWeight": "normal",
+                "marginBottom": "1.7em",
+              }
+            }
+          >
+            Welcome to the GHRecommender project – the place where you can find the GitHub projects that may be of interest to you but you haven’t discovered yet.
+          </h2>
+        </div>
+      </div>
+      <a
+        className="ui huge primary button"
+        disabled={undefined}
+        href="/app/recommendations"
+        onClick={[Function]}
+        role="button"
+        tabIndex={undefined}
+      >
+        Get Recommendations
+        <i
+          aria-hidden="true"
+          className="right arrow icon"
+        />
+      </a>
+      <h3
+        className="ui inverted header"
+      >
+        Want to know more? Read check out the
+         
+        <a
+          color="white"
+          href="#"
+        >
+          “How it Works”
+        </a>
+         
+        page.
+      </h3>
+    </div>
+    <div
+      className="ui text container"
+      style={
+        Object {
+          "paddingBottom": "3em",
+          "paddingTop": "3em",
+        }
+      }
+    >
+      <div
+        className="ui small inverted statistics"
+      >
+        <div
+          className="ui statistic"
+        >
+          <div
+            className="value"
+          >
+            19,925,204
+          </div>
+          <div
+            className="label"
+          >
+            Users
+          </div>
+        </div>
+        <div
+          className="ui statistic"
+        >
+          <div
+            className="value"
+          >
+            64,245,061
+          </div>
+          <div
+            className="label"
+          >
+            Repositories
+          </div>
+        </div>
+        <div
+          className="ui statistic"
+        >
+          <div
+            className="value"
+          >
+            81,302,007
+          </div>
+          <div
+            className="label"
+          >
+            Stars
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <canvas
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="ui inverted vertical segment"
+    style={
+      Object {
+        "padding": "5em 0em",
+      }
+    }
+  >
+    <div
+      className="ui container"
+    >
+      <div
+        className="ui inverted divided grid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="six wide column"
+          >
+            <h4
+              className="ui inverted header"
+            >
+              About
+            </h4>
+            <div
+              className="ui inverted link list"
+              role="list"
+            >
+              <a
+                className="item"
+                data-value={undefined}
+                href="https://github.com/ghrecommender"
+                onClick={[Function]}
+                role="listitem"
+              >
+                GitHub
+              </a>
+              <a
+                className="item"
+                data-value={undefined}
+                href="mailto:contact@ghrecommender.io"
+                onClick={[Function]}
+                role="listitem"
+              >
+                Contact us
+              </a>
+              <a
+                className="item"
+                data-value={undefined}
+                href="https://twitter.com/ghrecommender"
+                onClick={[Function]}
+                role="listitem"
+              >
+                Twitter
+              </a>
+            </div>
+          </div>
+          <div
+            className="six wide column"
+          >
+            <p>
+              Copyright © 2017  
+              <a
+                href="https://github.com/avli"
+              >
+                Andrey Lisin
+              </a>
+               and 
+              <a
+                href="http://github.com/yurtaev"
+              >
+                Egor Yurtaev
+              </a>
+            </p>
+            <p>
+              The code is licensed under MIT.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

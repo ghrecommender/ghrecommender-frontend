@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubscribeMessageContainer /> error 1`] = `
+<div
+  className="ui icon message"
+>
+  <i
+    aria-hidden="true"
+    className="mail outline icon"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Subscribe to get new recommendations as soon as they arrive.
+    </div>
+    <br />
+    <button
+      className="ui small positive button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Subscribe
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<SubscribeMessageContainer /> loading 1`] = `
+<div
+  className="ui icon message"
+>
+  <i
+    aria-hidden="true"
+    className="circle notched loading icon"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Subscribe to get new recommendations as soon as they arrive.
+    </div>
+    <br />
+    <button
+      className="ui small loading positive button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Subscribe
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<SubscribeMessageContainer /> subscribed: false 1`] = `
+<div
+  className="ui icon message"
+>
+  <i
+    aria-hidden="true"
+    className="mail outline icon"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Subscribe to get new recommendations as soon as they arrive.
+    </div>
+    <br />
+    <button
+      className="ui small positive button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Subscribe
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<SubscribeMessageContainer /> subscribed: true 1`] = `
+<div
+  className="ui icon message"
+>
+  <i
+    aria-hidden="true"
+    className="mail outline icon"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Subscribe to get new recommendations as soon as they arrive.
+    </div>
+    <br />
+    <button
+      className="ui small negative button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Unsubscribe
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<SubscribeMessageContainer /> success 1`] = `
+<div
+  className="ui icon message"
+>
+  <i
+    aria-hidden="true"
+    className="mail outline icon"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      Subscribe to get new recommendations as soon as they arrive.
+    </div>
+    <br />
+    <button
+      className="ui small negative button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Unsubscribe
+    </button>
+  </div>
+</div>
+`;
