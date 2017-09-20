@@ -30,7 +30,7 @@ export const Recommendations = ({ loading, items, error, user }: Props) => {
         <Menu.Item as={Link} to="/">
           Home
         </Menu.Item>
-        <Menu.Item as={Link} to="/app/recommendations" active>Recommendations</Menu.Item>
+        <Menu.Item as={Link} to="/app/recommendations/" active>Recommendations</Menu.Item>
         <Menu.Item as="a">How it Works</Menu.Item>
       </Menu>
       <Header as="h1" dividing>

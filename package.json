@@ -43,7 +43,7 @@
     "deploy": "yarn build && yarn upload"
   },
   "reactSnapshot": {
-    "include": ["/"],
+    "include": ["/", "/app/recommendations/"],
     "snapshotDelay": 300
   },
   "devDependencies": {

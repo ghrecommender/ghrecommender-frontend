@@ -79,7 +79,7 @@ exports[`<HomePage /> 1`] = `
       <a
         className="ui huge primary button"
         disabled={undefined}
-        href="/app/recommendations"
+        href="/app/recommendations/"
         onClick={[Function]}
         role="button"
         tabIndex={undefined}

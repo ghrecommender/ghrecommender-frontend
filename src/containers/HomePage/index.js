@@ -56,7 +56,7 @@ const HomePage = () => (
           primary
           size="huge"
           as={Link}
-          to="/app/recommendations"
+          to="/app/recommendations/"
           onClick={trackClick('Get Recommendations')}
         >
           Get Recommendations
