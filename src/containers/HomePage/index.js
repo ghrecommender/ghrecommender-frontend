@@ -4,6 +4,7 @@ import React from 'react'
 import { Button, Container, Header, Icon, Menu, Segment, Responsive } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
+import GithubRibbon from '../../components/GithubRibbon'
 import Footer from '../../components/Footer/index'
 import Background from '../../components/Background'
 import StatisticGroups from '../../components/Statistics'
@@ -38,6 +39,7 @@ const HomePage = () => (
       style={{ padding: '1em 0em', minHeight: '100vh' }}
       vertical
     >
+      <GithubRibbon />
       <Container style={{ zIndex: 999, position: 'inherit' }}>
         <Menu inverted pointing secondary size="large">
           <Menu.Item as={Link} to="/" active>
