@@ -12,7 +12,7 @@ const Footer = () => (
             <Header inverted as="h4" content="About" />
             <List link inverted>
               <List.Item as="a" href="https://github.com/ghrecommender" onClick={trackClick('Footer - Github')}>GitHub</List.Item>
-              <List.Item as="a" href="mailto:contact@ghrecommender.io" onClick={trackClick('Footer - Contact us')}>Contact us</List.Item>
+              <List.Item as="a" href="mailto:contact@ghrecommender.io" onClick={trackClick('Footer - Hire us')}>Hire us</List.Item>
               <List.Item as="a" href="https://twitter.com/ghrecommender" onClick={trackClick('Footer - Twitter')}>Twitter</List.Item>
             </List>
           </Grid.Column>

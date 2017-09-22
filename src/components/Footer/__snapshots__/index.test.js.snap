@@ -46,7 +46,7 @@ exports[`<Footer /> 1`] = `
               onClick={[Function]}
               role="listitem"
             >
-              Contact us
+              Hire us
             </a>
             <a
               className="item"
