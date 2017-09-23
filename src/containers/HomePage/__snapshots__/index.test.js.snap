@@ -49,6 +49,18 @@ exports[`<HomePage /> 1`] = `
     >
       <div>
         <div>
+          <img
+            alt="logo"
+            src="/assets/android-chrome-192x192.png"
+            style={
+              Object {
+                "marginTop": "3em",
+                "userDrag": "none",
+                "userSelect": "none",
+                "webkitUserDrag": "none",
+              }
+            }
+          />
           <h1
             className="ui inverted header"
             style={
@@ -56,7 +68,6 @@ exports[`<HomePage /> 1`] = `
                 "fontSize": "4em",
                 "fontWeight": "normal",
                 "marginBottom": 0,
-                "marginTop": "3em",
               }
             }
           >

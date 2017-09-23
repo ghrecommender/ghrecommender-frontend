@@ -9,16 +9,24 @@ import Background from '../../components/Background'
 import StatisticGroups from '../../components/Statistics'
 import { trackClick } from '../../utils'
 
+const logoStyle = {
+  marginTop: '3em',
+  userSelect: 'none',
+  userDrag: 'none',
+  webkitUserDrag: 'none',
+}
+
 const renderHeaders = (mobile: boolean) => {
   const fontSize1 = mobile ? '2em' : '4em'
   const fontSize2 = mobile ? '1.5em' : '1.7em'
   return (
     <div>
+      <img alt="logo" src="/assets/android-chrome-192x192.png" style={logoStyle} />
       <Header
         as="h1"
         content="GHRecommender"
         inverted
-        style={{ fontSize: fontSize1, fontWeight: 'normal', marginBottom: 0, marginTop: '3em' }}
+        style={{ fontSize: fontSize1, fontWeight: 'normal', marginBottom: 0 }}
       />
       <Header
         as="h2"
