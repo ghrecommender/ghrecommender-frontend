@@ -33,20 +33,20 @@ exports[`<Footer /> 1`] = `
             <a
               className="item"
               data-value={undefined}
+              href="mailto:hire@ghrecommender.io"
+              onClick={[Function]}
+              role="listitem"
+            >
+              Hire us
+            </a>
+            <a
+              className="item"
+              data-value={undefined}
               href="https://github.com/ghrecommender"
               onClick={[Function]}
               role="listitem"
             >
               GitHub
-            </a>
-            <a
-              className="item"
-              data-value={undefined}
-              href="mailto:contact@ghrecommender.io"
-              onClick={[Function]}
-              role="listitem"
-            >
-              Hire us
             </a>
             <a
               className="item"
