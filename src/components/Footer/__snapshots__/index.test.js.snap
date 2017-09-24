@@ -37,7 +37,11 @@ exports[`<Footer /> 1`] = `
               onClick={[Function]}
               role="listitem"
             >
-              Hire us
+              <i
+                aria-hidden="true"
+                className="mail outline icon"
+              />
+               Hire us
             </a>
             <a
               className="item"
@@ -46,7 +50,11 @@ exports[`<Footer /> 1`] = `
               onClick={[Function]}
               role="listitem"
             >
-              GitHub
+              <i
+                aria-hidden="true"
+                className="github icon"
+              />
+               GitHub
             </a>
             <a
               className="item"
@@ -55,7 +63,11 @@ exports[`<Footer /> 1`] = `
               onClick={[Function]}
               role="listitem"
             >
-              Twitter
+              <i
+                aria-hidden="true"
+                className="twitter icon"
+              />
+               Twitter
             </a>
           </div>
         </div>
@@ -63,13 +75,14 @@ exports[`<Footer /> 1`] = `
           className="six wide column"
         >
           <p>
-            Copyright © 2017  
+            Copyright © 2017 
             <a
               href="https://github.com/avli"
             >
               Andrey Lisin
             </a>
-             and 
+             and
+             
             <a
               href="http://github.com/yurtaev"
             >
