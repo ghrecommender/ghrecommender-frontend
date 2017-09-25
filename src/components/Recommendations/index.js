@@ -30,11 +30,21 @@ export const Recommendations = ({ loading, items, error, user }: Props) => {
         <Menu.Item as={Link} to="/">
           Home
         </Menu.Item>
-        <Menu.Item as={Link} to="/app/recommendations/" active>Recommendations</Menu.Item>
-        <Menu.Item as="a">How it Works</Menu.Item>
+        <Menu.Item as={Link} to="/app/recommendations/" active>
+          Recommendations
+        </Menu.Item>
+        <Menu.Item
+          as="a"
+          href="https://medium.com/@andrey_lisin/building-recommender-system-for-github-a8108f0cb2bd"
+        >
+          How it Works
+        </Menu.Item>
       </Menu>
       <Header as="h1" dividing>
-        The recommended projects for <a href={`https://github.com/${user.username}`} target="_blank">{user.username}</a>
+        The recommended projects for{' '}
+        <a href={`https://github.com/${user.username}`} target="_blank">
+          {user.username}
+        </a>
       </Header>
       {showWarning && <MessageWarning />}
       {error && <MessageError />}

@@ -51,7 +51,11 @@ const HomePage = () => (
           <Menu.Item as={Link} to="/" active>
             Home
           </Menu.Item>
-          <Menu.Item as="a" onClick={trackClick('Menu: How it works')}>
+          <Menu.Item
+            as="a"
+            href="https://medium.com/@andrey_lisin/building-recommender-system-for-github-a8108f0cb2bd"
+            onClick={trackClick('Menu: How it works')}
+          >
             How it Works
           </Menu.Item>
         </Menu>
@@ -70,12 +74,12 @@ const HomePage = () => (
           Get Recommendations
           <Icon name="right arrow" />
         </Button>
-        <Header
-          as="h3" // ToDo: add link
-          inverted
-        >
+        <Header as="h3" inverted>
           Want to know more? Read check out the{' '}
-          <a href="#" color="white">
+          <a
+            href="https://medium.com/@andrey_lisin/building-recommender-system-for-github-a8108f0cb2bd"
+            color="white"
+          >
             “How it Works”
           </a>{' '}
           page.
