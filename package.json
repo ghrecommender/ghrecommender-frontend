@@ -25,7 +25,7 @@
     "react-particles-js": "^1.5.0",
     "react-refetch": "^1.0.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.13",
+    "react-scripts": "1.0.14",
     "react-snapshot": "^1.2.0",
     "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.73.0"
@@ -43,7 +43,10 @@
     "deploy": "yarn build && yarn upload"
   },
   "reactSnapshot": {
-    "include": ["/", "/app/recommendations/"],
+    "include": [
+      "/",
+      "/app/recommendations/"
+    ],
     "snapshotDelay": 300
   },
   "devDependencies": {
