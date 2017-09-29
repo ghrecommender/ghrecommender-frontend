@@ -1,5 +1,6 @@
 [ignore]
 <PROJECT_ROOT>/node_modules/http-parser-js/.*
+<PROJECT_ROOT>/node_modules/immutable/.*
 
 [include]
 
