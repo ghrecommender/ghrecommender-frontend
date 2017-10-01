@@ -50,10 +50,10 @@
     "snapshotDelay": 300
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",
     "flow-bin": "^0.56.0",
-    "react-test-renderer": "^16.0.0"
+    "react-test-renderer": "^16.0.0",
+    "@storybook/react": "3.2.11"
   }
 }
