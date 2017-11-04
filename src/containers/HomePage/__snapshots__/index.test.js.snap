@@ -173,8 +173,11 @@ exports[`<HomePage /> 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      className={undefined}
+    >
       <canvas
+        className={undefined}
         style={
           Object {
             "height": "100%",
