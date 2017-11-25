@@ -6,46 +6,54 @@
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/@hypnosphi/fuse.js/-/fuse.js-3.0.9.tgz#ea99f6121b4a8f065b4c71f85595db2714498807"
 
-"@storybook/addon-actions@^3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.2.15.tgz#a54228d86baeb637adbbbdd11ff0c040d9862952"
+"@storybook/addon-actions@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-3.2.16.tgz#dc53d48dc8035b426a02628687c6cb0601b933b9"
   dependencies:
-    "@storybook/addons" "^3.2.15"
+    "@storybook/addons" "^3.2.16"
     deep-equal "^1.0.1"
     json-stringify-safe "^5.0.1"
     prop-types "^15.6.0"
     react-inspector "^2.2.1"
     uuid "^3.1.0"
 
-"@storybook/addon-links@^3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-3.2.15.tgz#87a0dc9bad7b208aca7142863a237b5135a47a34"
+"@storybook/addon-links@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-3.2.16.tgz#58b807f7fbcdadb405c6379e69a22c48025c9558"
   dependencies:
-    "@storybook/addons" "^3.2.15"
+    "@storybook/addons" "^3.2.16"
 
-"@storybook/addons@^3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.2.15.tgz#120fc3e34454b9e6c779f25b945d354511168abc"
+"@storybook/addons@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-3.2.16.tgz#cbad5d9e8222aba3d5a5d06af98a095322f62cb5"
 
-"@storybook/channel-postmessage@^3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-3.2.15.tgz#34ef971cd231a4c034c293693bb5b78c83a1b7cb"
+"@storybook/channel-postmessage@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-3.2.16.tgz#036b2c1c412e2806badc1c1f7bcbb19b069fedde"
   dependencies:
-    "@storybook/channels" "^3.2.15"
+    "@storybook/channels" "^3.2.16"
     global "^4.3.2"
     json-stringify-safe "^5.0.1"
 
-"@storybook/channels@^3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-3.2.15.tgz#c76277d9050e0a0027a9e06edff662db55f391d6"
+"@storybook/channels@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-3.2.16.tgz#07d8686328c0bb885aa8b69254fcf0745d22a620"
 
-"@storybook/components@^3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.2.15.tgz#238e8faf0f5668534dea98868327760b24139460"
+"@storybook/components@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.2.16.tgz#381c4ce414f139fb03b059f1f0265c6246457e7b"
   dependencies:
     glamor "^2.20.40"
     glamorous "^4.11.0"
     prop-types "^15.6.0"
+
+"@storybook/mantra-core@^1.7.0":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@storybook/mantra-core/-/mantra-core-1.7.2.tgz#e10c7faca29769e97131e0e0308ef7cfb655b70c"
+  dependencies:
+    "@storybook/react-komposer" "^2.0.1"
+    "@storybook/react-simple-di" "^1.2.1"
+    babel-runtime "6.x.x"
 
 "@storybook/react-fuzzy@^0.4.3":
   version "0.4.3"
@@ -56,15 +64,38 @@
     fuse.js "^3.0.1"
     prop-types "^15.5.9"
 
-"@storybook/react@3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-3.2.15.tgz#f031d78c667dead434ae196aba4d5d9b83376f46"
+"@storybook/react-komposer@^2.0.0", "@storybook/react-komposer@^2.0.1":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@storybook/react-komposer/-/react-komposer-2.0.3.tgz#f9e12a9586b2ce95c24c137eabb8b71527ddb369"
   dependencies:
-    "@storybook/addon-actions" "^3.2.15"
-    "@storybook/addon-links" "^3.2.15"
-    "@storybook/addons" "^3.2.15"
-    "@storybook/channel-postmessage" "^3.2.15"
-    "@storybook/ui" "^3.2.15"
+    "@storybook/react-stubber" "^1.0.0"
+    babel-runtime "^6.11.6"
+    hoist-non-react-statics "^1.2.0"
+    lodash.pick "^4.4.0"
+    shallowequal "^0.2.2"
+
+"@storybook/react-simple-di@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@storybook/react-simple-di/-/react-simple-di-1.2.1.tgz#fe4b29a32459e168da3aae8e6fcd8631861210c9"
+  dependencies:
+    babel-runtime "6.x.x"
+    hoist-non-react-statics "1.x.x"
+
+"@storybook/react-stubber@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/react-stubber/-/react-stubber-1.0.1.tgz#8c312c2658b9eeafce470e1c39e4193f0b5bf9b1"
+  dependencies:
+    babel-runtime "^6.5.0"
+
+"@storybook/react@3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-3.2.16.tgz#9a0eaecbc7ba6c97e89ce1d17dee7a2af68260c9"
+  dependencies:
+    "@storybook/addon-actions" "^3.2.16"
+    "@storybook/addon-links" "^3.2.16"
+    "@storybook/addons" "^3.2.16"
+    "@storybook/channel-postmessage" "^3.2.16"
+    "@storybook/ui" "^3.2.16"
     airbnb-js-shims "^1.3.0"
     autoprefixer "^7.1.6"
     babel-core "^6.26.0"
@@ -112,13 +143,15 @@
     webpack-dev-middleware "^1.12.0"
     webpack-hot-middleware "^2.20.0"
 
-"@storybook/ui@^3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@storybook/ui/-/ui-3.2.15.tgz#a73d24aa67877df4f69f497a0d7a67cfb34f3f39"
+"@storybook/ui@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@storybook/ui/-/ui-3.2.16.tgz#b7df979c2f5770e54cf84300cc09b7072c2fef16"
   dependencies:
     "@hypnosphi/fuse.js" "^3.0.9"
-    "@storybook/components" "^3.2.15"
+    "@storybook/components" "^3.2.16"
+    "@storybook/mantra-core" "^1.7.0"
     "@storybook/react-fuzzy" "^0.4.3"
+    "@storybook/react-komposer" "^2.0.0"
     babel-runtime "^6.26.0"
     deep-equal "^1.0.1"
     events "^1.1.1"
@@ -128,15 +161,13 @@
     lodash.debounce "^4.0.8"
     lodash.pick "^4.4.0"
     lodash.sortby "^4.7.0"
-    mantra-core "^1.7.0"
     podda "^1.2.2"
     prop-types "^15.6.0"
     qs "^6.5.1"
     react-icons "^2.2.7"
     react-inspector "^2.2.1"
-    react-komposer "^2.0.0"
     react-modal "^3.1.2"
-    react-split-pane "^0.1.68"
+    react-split-pane "^0.1.71"
     react-treebeard "^2.0.3"
     redux "^3.7.2"
 
@@ -155,8 +186,8 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.77.tgz#0bc699413e84d6ed5d927ca30ea0f0a890b42d75"
 
 "@types/node@*":
-  version "8.0.51"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.51.tgz#b31d716fb8d58eeb95c068a039b9b6292817d5fb"
+  version "8.0.53"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.53.tgz#396b35af826fa66aad472c8cb7b8d5e277f4e6d8"
 
 "@types/node@^8.0.32":
   version "8.0.32"
@@ -2654,8 +2685,8 @@ entities@^1.1.1, entities@~1.1.1:
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
 enzyme-adapter-react-16@^1.0.3:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.4.tgz#67f898cc053452f5c786424e395fe0c63a0607fe"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.1.0.tgz#86c5db7c10f0be6ec25d54ca41b59f2abb397cf4"
   dependencies:
     enzyme-adapter-utils "^1.1.0"
     lodash "^4.17.4"
@@ -2665,26 +2696,27 @@ enzyme-adapter-react-16@^1.0.3:
     react-test-renderer "^16.0.0-0"
 
 enzyme-adapter-utils@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/enzyme-adapter-utils/-/enzyme-adapter-utils-1.1.1.tgz#689de8853f0751710590d6dfa730ff4056ea36b2"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/enzyme-adapter-utils/-/enzyme-adapter-utils-1.2.0.tgz#7f4471ee0a70b91169ec8860d2bf0a6b551664b2"
   dependencies:
     lodash "^4.17.4"
     object.assign "^4.0.4"
     prop-types "^15.5.10"
 
 enzyme@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/enzyme/-/enzyme-3.1.1.tgz#c6948dfccd055d75fbd8627ad1c96a024d0e247b"
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/enzyme/-/enzyme-3.2.0.tgz#998bdcda0fc71b8764a0017f7cc692c943f54a7a"
   dependencies:
     cheerio "^1.0.0-rc.2"
     function.prototype.name "^1.0.3"
+    has "^1.0.1"
     is-subset "^0.1.1"
     lodash "^4.17.4"
     object-is "^1.0.1"
     object.assign "^4.0.4"
     object.entries "^1.0.4"
     object.values "^1.0.4"
-    raf "^3.3.2"
+    raf "^3.4.0"
     rst-selector-parser "^2.2.3"
 
 errno@^0.1.3, errno@^0.1.4:
@@ -2710,8 +2742,8 @@ es-abstract@^1.4.3, es-abstract@^1.5.0, es-abstract@^1.5.1, es-abstract@^1.7.0, 
     is-regex "^1.0.4"
 
 es-abstract@^1.6.1:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.9.0.tgz#690829a07cae36b222e7fd9b75c0d0573eb25227"
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.10.0.tgz#1ecb36c197842a00d8ee4c2dfd8646bb97d60864"
   dependencies:
     es-to-primitive "^1.1.1"
     function-bind "^1.1.1"
@@ -3739,11 +3771,11 @@ hoek@4.x.x:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.0.tgz#72d9d0754f7fe25ca2d01ad8f8f9a9449a89526d"
 
-hoist-non-react-statics@1.x.x, hoist-non-react-statics@^1.0.3, hoist-non-react-statics@^1.2.0:
+hoist-non-react-statics@1.x.x, hoist-non-react-statics@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
-hoist-non-react-statics@^2.3.0:
+hoist-non-react-statics@^2.0.0, hoist-non-react-statics@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.3.1.tgz#343db84c6018c650778898240135a1420ee22ce0"
 
@@ -4032,7 +4064,7 @@ interpret@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.3.tgz#cbc35c62eeee73f19ab7b10a801511401afc0f90"
 
-invariant@2.x.x, invariant@^2.0.0, invariant@^2.2.1, invariant@^2.2.2:
+invariant@^2.0.0, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -4978,14 +5010,6 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
-mantra-core@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/mantra-core/-/mantra-core-1.7.0.tgz#a8c83e8cee83ef6a7383131519fe8031ad546386"
-  dependencies:
-    babel-runtime "6.x.x"
-    react-komposer "^1.9.0"
-    react-simple-di "^1.2.0"
-
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
@@ -5139,10 +5163,6 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
-
-mobx@^2.3.4:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-2.7.0.tgz#cf3d82d18c0ca7f458d8f2a240817b3dc7e54a01"
 
 ms@2.0.0:
   version "2.0.0"
@@ -6170,7 +6190,7 @@ radium@^0.19.0:
     inline-style-prefixer "^2.0.5"
     prop-types "^15.5.8"
 
-raf@3.4.0, raf@^3.3.2:
+raf@3.4.0, raf@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.0.tgz#a28876881b4bc2ca9117d4138163ddb80f781575"
   dependencies:
@@ -6205,8 +6225,8 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
 raven-js@^3.19.1:
-  version "3.19.1"
-  resolved "https://registry.yarnpkg.com/raven-js/-/raven-js-3.19.1.tgz#a5d25646556fc2c86d2b188ae4f425c144c08dd8"
+  version "3.20.1"
+  resolved "https://registry.yarnpkg.com/raven-js/-/raven-js-3.20.1.tgz#3170bdb35c05098ddb8548ee5be0687f9d763330"
 
 raw-body@2.3.2:
   version "2.3.2"
@@ -6262,8 +6282,8 @@ react-docgen@^2.15.0:
     recast "^0.12.6"
 
 react-dom@^16.0.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.1.0.tgz#ab6fd2a285096f388aeba51919a573d06c9bdde4"
+  version "16.1.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.1.1.tgz#b2e331b6d752faf1a2d31399969399a41d8d45f8"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -6313,26 +6333,6 @@ react-inspector@^2.2.1:
     babel-runtime "^6.26.0"
     is-dom "^1.0.9"
 
-react-komposer@^1.9.0:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/react-komposer/-/react-komposer-1.13.1.tgz#4b8ac4bcc71323bd7413dcab95c831197f50eed0"
-  dependencies:
-    babel-runtime "6.x.x"
-    hoist-non-react-statics "1.x.x"
-    invariant "2.x.x"
-    mobx "^2.3.4"
-    shallowequal "0.2.x"
-
-react-komposer@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-komposer/-/react-komposer-2.0.0.tgz#b964738014a9b4aee494a83c0b5b833d66072a90"
-  dependencies:
-    babel-runtime "^6.11.6"
-    hoist-non-react-statics "^1.2.0"
-    lodash.pick "^4.4.0"
-    react-stubber "^1.0.0"
-    shallowequal "^0.2.2"
-
 react-linkify@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/react-linkify/-/react-linkify-0.2.1.tgz#b28d3f9544539a622fec8d42b4800eb9d23bf981"
@@ -6358,13 +6358,13 @@ react-particles-js@^2.1.0:
     lodash.clonedeep "^4.5.0"
 
 react-refetch@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-refetch/-/react-refetch-1.0.1.tgz#3e3afed94365c23d4290d364cd4c606b115b81ba"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-refetch/-/react-refetch-1.0.3.tgz#7e9e65dd284c625f1bab23ad4bd14f2d4c32bcbb"
   dependencies:
-    hoist-non-react-statics "^1.0.3"
+    hoist-non-react-statics "^2.0.0"
     invariant "^2.0.0"
     lodash "^4.11.0"
-    warning "^2.1.0"
+    warning "^3.0.0"
 
 react-router-dom@^4.2.2:
   version "4.2.2"
@@ -6432,13 +6432,6 @@ react-scripts@1.0.17:
   optionalDependencies:
     fsevents "1.1.2"
 
-react-simple-di@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-simple-di/-/react-simple-di-1.2.0.tgz#dde0e5bf689f391ef2ab02c9043b213fe239c6d0"
-  dependencies:
-    babel-runtime "6.x.x"
-    hoist-non-react-statics "1.x.x"
-
 react-snapshot@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/react-snapshot/-/react-snapshot-1.3.0.tgz#f86903017192f96e643d63f8855116b219b76484"
@@ -6451,21 +6444,15 @@ react-snapshot@^1.3.0:
     mkdirp "^0.5.1"
     safe-commander "^2.11.1"
 
-react-split-pane@^0.1.68:
-  version "0.1.68"
-  resolved "https://registry.yarnpkg.com/react-split-pane/-/react-split-pane-0.1.68.tgz#a4ed40b0e77f0578cb6c9f9e65edd32726e4b16a"
+react-split-pane@^0.1.71:
+  version "0.1.71"
+  resolved "https://registry.yarnpkg.com/react-split-pane/-/react-split-pane-0.1.71.tgz#19b1b30638655e655f9f5fe57b1ae7cc6c151829"
   dependencies:
     "@types/inline-style-prefixer" "^3.0.0"
     "@types/react" "^16.0.18"
     inline-style-prefixer "^3.0.6"
     prop-types "^15.5.10"
     react-style-proptype "^3.0.0"
-
-react-stubber@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-stubber/-/react-stubber-1.0.0.tgz#41ee2cac72d4d4fd70a63896da98e13739b84628"
-  dependencies:
-    babel-runtime "^6.5.0"
 
 react-style-proptype@^3.0.0:
   version "3.0.0"
@@ -6474,8 +6461,8 @@ react-style-proptype@^3.0.0:
     prop-types "^15.5.4"
 
 react-test-renderer@^16.0.0, react-test-renderer@^16.0.0-0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.1.0.tgz#33a1d3ce896311e0dd1547649b1456ffa7fda415"
+  version "16.1.1"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.1.1.tgz#a05184688d564be799f212449262525d1e350537"
   dependencies:
     fbjs "^0.8.16"
     object-assign "^4.1.1"
@@ -6503,8 +6490,8 @@ react-treebeard@^2.0.3:
     velocity-react "^1.3.1"
 
 react@^16.0.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.1.0.tgz#1c2bdac3c17fe7ee9282fa35aca6cc36387903e1"
+  version "16.1.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.1.1.tgz#d5c4ef795507e3012282dd51261ff9c0e824fe1f"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -7067,7 +7054,7 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
 
-shallowequal@0.2.x, shallowequal@^0.2.2:
+shallowequal@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-0.2.2.tgz#1e32fd5bcab6ad688a4812cb0cc04efc75c7014e"
   dependencies:
@@ -7839,12 +7826,6 @@ walker@~1.0.5:
   resolved "https://registry.yarnpkg.com/walker/-/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
   dependencies:
     makeerror "1.0.x"
-
-warning@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-2.1.0.tgz#21220d9c63afc77a8c92111e011af705ce0c6901"
-  dependencies:
-    loose-envify "^1.0.0"
 
 warning@^3.0.0:
   version "3.0.0"

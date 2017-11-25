@@ -50,7 +50,7 @@
     "snapshotDelay": 300
   },
   "devDependencies": {
-    "@storybook/react": "3.2.15",
+    "@storybook/react": "3.2.16",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.3",
     "flow-bin": "^0.59.0",
