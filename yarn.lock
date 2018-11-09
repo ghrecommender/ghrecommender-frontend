@@ -7240,7 +7240,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-"lodash@>=3.5 <5", lodash@^4.14.0, lodash@^4.17.2, lodash@^4.2.0:
+"lodash@>=3.5 <5", lodash@^4.14.0, lodash@^4.17.2:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -9473,13 +9473,13 @@ react-particles-js@^2.1.0:
   dependencies:
     lodash.clonedeep "^4.5.0"
 
-react-refetch@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/react-refetch/-/react-refetch-1.0.4.tgz#41da46ab2177c9bca6fd2c0ac1724f65bd1847b2"
+react-refetch@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-refetch/-/react-refetch-2.0.0.tgz#900386012a61a169766e1d1f497a7f614cfdc3f5"
+  integrity sha512-PPGSWxhIxLmh8e1SV64WhTd140X+vc+Rx7LyL+L3EbX8LGjXfEWZQxQ9JpolfYGxpmohYt6bLO4QjUW1OuZciA==
   dependencies:
     hoist-non-react-statics "^2.2.1"
     invariant "^2.0.0"
-    lodash "^4.2.0"
     warning "^3.0.0"
 
 react-router-dom@^4.2.2:
