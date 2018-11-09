@@ -66,7 +66,7 @@ exports[`<HomePage /> 1`] = `
             className="ui inverted header"
             style={
               Object {
-                "fontSize": "4em",
+                "fontSize": "2em",
                 "fontWeight": "normal",
                 "marginBottom": 0,
               }
@@ -78,7 +78,7 @@ exports[`<HomePage /> 1`] = `
             className="ui inverted header"
             style={
               Object {
-                "fontSize": "1.7em",
+                "fontSize": "1.5em",
                 "fontWeight": "normal",
                 "marginBottom": "1.7em",
               }
