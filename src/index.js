@@ -1,5 +1,8 @@
 // @flow
 
+import 'raf/polyfill'
+import 'whatwg-fetch'
+
 import React from 'react'
 import { render } from 'react-snapshot'
 import Raven from 'raven-js'
