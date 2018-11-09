@@ -7,7 +7,7 @@ import { Message, Icon, Button } from 'semantic-ui-react'
 import { trackClick } from '../../utils'
 
 const getIcon = (loading: boolean): string => {
-  return loading ? 'circle notched' : 'mail outline'
+  return loading ? 'circle notched' : 'envelope outline'
 }
 
 type Props = {

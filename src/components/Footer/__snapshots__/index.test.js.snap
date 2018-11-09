@@ -32,20 +32,18 @@ exports[`<Footer /> 1`] = `
           >
             <a
               className="item"
-              data-value={undefined}
               href="mailto:hire@ghrecommender.io"
               onClick={[Function]}
               role="listitem"
             >
               <i
                 aria-hidden="true"
-                className="mail outline icon"
+                className="envelope outline icon"
               />
                Hire us
             </a>
             <a
               className="item"
-              data-value={undefined}
               href="https://github.com/ghrecommender"
               onClick={[Function]}
               role="listitem"
@@ -58,7 +56,6 @@ exports[`<Footer /> 1`] = `
             </a>
             <a
               className="item"
-              data-value={undefined}
               href="https://twitter.com/ghrecommender"
               onClick={[Function]}
               role="listitem"

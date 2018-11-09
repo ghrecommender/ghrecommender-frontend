@@ -7,7 +7,6 @@ exports[`<RecommendationsList /> 1`] = `
 >
   <a
     className="item"
-    data-value={undefined}
     href="https://github.com/mxstbr/react-boilerplate"
     onClick={[Function]}
     role="listitem"
@@ -50,7 +49,6 @@ exports[`<RecommendationsList /> 1`] = `
   </a>
   <a
     className="item"
-    data-value={undefined}
     href="https://github.com/nodejs/node"
     onClick={[Function]}
     role="listitem"
@@ -108,7 +106,6 @@ exports[`<RecommendationsList /> 1`] = `
   </a>
   <a
     className="item"
-    data-value={undefined}
     href="https://github.com/FreeCodeCamp/FreeCodeCamp"
     onClick={[Function]}
     role="listitem"

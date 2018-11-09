@@ -6,7 +6,7 @@ exports[`<SubscribeMessage /> <SubscribeMessage /> 1`] = `
 >
   <i
     aria-hidden="true"
-    className="mail outline icon"
+    className="envelope outline icon"
   />
   <div
     className="content"
@@ -19,10 +19,8 @@ exports[`<SubscribeMessage /> <SubscribeMessage /> 1`] = `
     <br />
     <button
       className="ui small positive button"
-      disabled={undefined}
       onClick={[Function]}
       role="button"
-      tabIndex={undefined}
     >
       Subscribe
     </button>
@@ -49,10 +47,8 @@ exports[`<SubscribeMessage /> <SubscribeMessage loading /> 1`] = `
     <br />
     <button
       className="ui small loading positive button"
-      disabled={undefined}
       onClick={[Function]}
       role="button"
-      tabIndex={undefined}
     >
       Subscribe
     </button>
@@ -66,7 +62,7 @@ exports[`<SubscribeMessage /> <SubscribeMessage subscribed /> 1`] = `
 >
   <i
     aria-hidden="true"
-    className="mail outline icon"
+    className="envelope outline icon"
   />
   <div
     className="content"
@@ -79,10 +75,8 @@ exports[`<SubscribeMessage /> <SubscribeMessage subscribed /> 1`] = `
     <br />
     <button
       className="ui small negative button"
-      disabled={undefined}
       onClick={[Function]}
       role="button"
-      tabIndex={undefined}
     >
       Unsubscribe
     </button>
@@ -109,10 +103,8 @@ exports[`<SubscribeMessage /> <SubscribeMessage subscribed loading /> 1`] = `
     <br />
     <button
       className="ui small loading negative button"
-      disabled={undefined}
       onClick={[Function]}
       role="button"
-      tabIndex={undefined}
     >
       Unsubscribe
     </button>

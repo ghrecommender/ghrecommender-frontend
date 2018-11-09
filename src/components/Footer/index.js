@@ -16,7 +16,7 @@ const Footer = () => (
                 href="mailto:hire@ghrecommender.io"
                 onClick={trackClick('Footer - Hire us')}
               >
-                <Icon name="mail outline" /> Hire us
+                <Icon name="envelope outline" /> Hire us
               </List.Item>
               <List.Item
                 as="a"
