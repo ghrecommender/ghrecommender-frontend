@@ -14,19 +14,19 @@ const sortItem = (a: Item, b: Item): number => b.score - a.score
 
 const renderListItemHeader = (item: Item) => (
   <div>
-    <a href={getUrl(item.name)} target="_blank">
+    <a href={getUrl(item.name)} target="_blank" rel="noopener noreferrer">
       {item.name}
     </a>
   </div>
 )
 
 const renderItem = (item: Item) => (
-  <List.Item key={item.name} as="a" href={getUrl(item.name)} target="_blank">
+  <List.Item key={item.name} as="a" href={getUrl(item.name)} target="_blank" rel="noopener noreferrer">
     <List.Icon name="github" size="large" verticalAlign="middle" />
     <List.Content>
       <List.Header>{renderListItemHeader(item)}</List.Header>
       <List.Description>
-        <Linkify properties={{ target: '_blank' }}>
+        <Linkify properties={{ target: '_blank', rel: 'noopener noreferrer' }}>
           {emojify(item.description)}
         </Linkify>
       </List.Description>

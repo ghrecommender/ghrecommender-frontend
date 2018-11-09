@@ -42,7 +42,7 @@ export const Recommendations = ({ loading, items, error, user }: Props) => {
       </Menu>
       <Header as="h1" dividing>
         The recommended projects for{' '}
-        <a href={`https://github.com/${user.username}`} target="_blank">
+        <a href={`https://github.com/${user.username}`} target="_blank" rel="noopener noreferrer">
           {user.username}
         </a>
       </Header>
