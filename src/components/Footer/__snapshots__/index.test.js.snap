@@ -39,6 +39,7 @@ exports[`<Footer /> 1`] = `
               <i
                 aria-hidden="true"
                 className="envelope outline icon"
+                onClick={[Function]}
               />
                Hire us
             </a>
@@ -51,6 +52,7 @@ exports[`<Footer /> 1`] = `
               <i
                 aria-hidden="true"
                 className="github icon"
+                onClick={[Function]}
               />
                GitHub
             </a>
@@ -63,6 +65,7 @@ exports[`<Footer /> 1`] = `
               <i
                 aria-hidden="true"
                 className="twitter icon"
+                onClick={[Function]}
               />
                Twitter
             </a>

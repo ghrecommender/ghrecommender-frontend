@@ -98,6 +98,7 @@ exports[`<HomePage /> 1`] = `
         <i
           aria-hidden="true"
           className="right arrow icon"
+          onClick={[Function]}
         />
       </a>
       <h3
@@ -223,6 +224,7 @@ exports[`<HomePage /> 1`] = `
                 <i
                   aria-hidden="true"
                   className="envelope outline icon"
+                  onClick={[Function]}
                 />
                  Hire us
               </a>
@@ -235,6 +237,7 @@ exports[`<HomePage /> 1`] = `
                 <i
                   aria-hidden="true"
                   className="github icon"
+                  onClick={[Function]}
                 />
                  GitHub
               </a>
@@ -247,6 +250,7 @@ exports[`<HomePage /> 1`] = `
                 <i
                   aria-hidden="true"
                   className="twitter icon"
+                  onClick={[Function]}
                 />
                  Twitter
               </a>

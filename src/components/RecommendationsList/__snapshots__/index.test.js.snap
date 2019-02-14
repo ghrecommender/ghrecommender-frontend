@@ -16,6 +16,7 @@ exports[`<RecommendationsList /> 1`] = `
     <i
       aria-hidden="true"
       className="github large icon middle aligned"
+      onClick={[Function]}
     />
     <div
       className="content"
@@ -60,6 +61,7 @@ exports[`<RecommendationsList /> 1`] = `
     <i
       aria-hidden="true"
       className="github large icon middle aligned"
+      onClick={[Function]}
     />
     <div
       className="content"
@@ -119,6 +121,7 @@ exports[`<RecommendationsList /> 1`] = `
     <i
       aria-hidden="true"
       className="github large icon middle aligned"
+      onClick={[Function]}
     />
     <div
       className="content"

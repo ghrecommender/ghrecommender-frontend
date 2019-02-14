@@ -7,6 +7,7 @@ exports[`<SubscribeMessage /> <SubscribeMessage /> 1`] = `
   <i
     aria-hidden="true"
     className="envelope outline icon"
+    onClick={[Function]}
   />
   <div
     className="content"
@@ -20,7 +21,6 @@ exports[`<SubscribeMessage /> <SubscribeMessage /> 1`] = `
     <button
       className="ui small positive button"
       onClick={[Function]}
-      role="button"
     >
       Subscribe
     </button>
@@ -35,6 +35,7 @@ exports[`<SubscribeMessage /> <SubscribeMessage loading /> 1`] = `
   <i
     aria-hidden="true"
     className="circle notched loading icon"
+    onClick={[Function]}
   />
   <div
     className="content"
@@ -48,7 +49,6 @@ exports[`<SubscribeMessage /> <SubscribeMessage loading /> 1`] = `
     <button
       className="ui small loading positive button"
       onClick={[Function]}
-      role="button"
     >
       Subscribe
     </button>
@@ -63,6 +63,7 @@ exports[`<SubscribeMessage /> <SubscribeMessage subscribed /> 1`] = `
   <i
     aria-hidden="true"
     className="envelope outline icon"
+    onClick={[Function]}
   />
   <div
     className="content"
@@ -76,7 +77,6 @@ exports[`<SubscribeMessage /> <SubscribeMessage subscribed /> 1`] = `
     <button
       className="ui small negative button"
       onClick={[Function]}
-      role="button"
     >
       Unsubscribe
     </button>
@@ -91,6 +91,7 @@ exports[`<SubscribeMessage /> <SubscribeMessage subscribed loading /> 1`] = `
   <i
     aria-hidden="true"
     className="circle notched loading icon"
+    onClick={[Function]}
   />
   <div
     className="content"
@@ -104,7 +105,6 @@ exports[`<SubscribeMessage /> <SubscribeMessage subscribed loading /> 1`] = `
     <button
       className="ui small loading negative button"
       onClick={[Function]}
-      role="button"
     >
       Unsubscribe
     </button>
