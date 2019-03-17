@@ -1,3 +1,5 @@
+// @flow strict
+
 import React from 'react'
 
 import { Container, Header, Segment, Grid, List, Icon } from 'semantic-ui-react'

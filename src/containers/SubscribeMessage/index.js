@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 
 import React from 'react'
 
@@ -22,7 +22,7 @@ const postSubscribe = () => ({
 
 type Props = {
   subscribed: boolean,
-  postSubscribe: Function,
+  postSubscribe: (*) => void,
   postSubscribeResponse?: PromiseStateType<Subscribe>,
 }
 

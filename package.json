@@ -17,6 +17,7 @@
   "private": true,
   "dependencies": {
     "raf": "^3.4.1",
+    "ramda": "^0.26.1",
     "raven-js": "^3.21.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -42,7 +43,8 @@
     "flow": "flow check",
     "lint": "eslint ./src",
     "upload": "aws s3 sync build/ s3://ghrecommender.io --cache-control max-age=86400 --acl=public-read",
-    "deploy": "yarn build && yarn upload"
+    "deploy": "yarn build && yarn upload",
+    "postinstall": "flow-typed install"
   },
   "reactSnapshot": {
     "include": [
@@ -59,6 +61,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "flow-bin": "^0.95.1",
+    "flow-typed": "^2.5.1",
     "react-test-renderer": "^16.2.0"
   },
   "browserslist": [

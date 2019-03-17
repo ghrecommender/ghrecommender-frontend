@@ -1,11 +1,11 @@
-// @flow
+// @flow strict
 import React from 'react'
 import { connect, PromiseState } from 'react-refetch'
 import { Dimmer, Loader } from 'semantic-ui-react'
 
 import Footer from '../components/Footer'
 import Recommendations from '../components/Recommendations'
-import { API_RECOMMENDATIONS_URL, API_USER_URL, LOGIN_URL } from '../constants/index'
+import { API_RECOMMENDATIONS_URL, API_USER_URL, LOGIN_URL } from '../constants'
 import type { Item, User, PromiseStateType } from '../types/index'
 
 const refetch = connect.defaults({

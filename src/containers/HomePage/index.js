@@ -1,10 +1,10 @@
-// @flow
+// @flow strict
 import React from 'react'
 
 import { Button, Container, Header, Icon, Menu, Segment, Responsive } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
-import Footer from '../../components/Footer/index'
+import Footer from '../../components/Footer'
 import Background from '../../components/Background'
 import StatisticGroups from '../../components/Statistics'
 import { trackClick } from '../../utils'

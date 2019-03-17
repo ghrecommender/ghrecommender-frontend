@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 
 import React from 'react'
 
@@ -11,10 +11,10 @@ import 'semantic-ui-css/semantic.min.css'
 
 const App = () => (
   <Router>
-    <div>
+    <>
       <Route exact path="/" component={HomePage} />
       <Route path="/app/recommendations/" component={RecommendationsPage} />
-    </div>
+    </>
   </Router>
 )
 

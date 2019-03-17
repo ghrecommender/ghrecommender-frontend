@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 
 import ReactGA from 'react-ga'
 

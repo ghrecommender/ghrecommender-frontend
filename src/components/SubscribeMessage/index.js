@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 
 import React from 'react'
 
@@ -13,7 +13,7 @@ const getIcon = (loading: boolean): string => {
 type Props = {
   loading: boolean,
   subscribed: boolean,
-  onClick: Function,
+  onClick: (*) => void,
 }
 
 const SubscribeMessage = ({ loading, subscribed, onClick }: Props) => {

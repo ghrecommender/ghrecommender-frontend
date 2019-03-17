@@ -1,17 +1,17 @@
-// @flow
+// @flow strict
 
-export type Item = {|
+export type Item = $ReadOnly<{|
   name: string,
   description: string,
   score: number,
-|}
+|}>
 
-export type SocialUser = {
+export type SocialUser = $ReadOnly<{|
   id: number,
   extra_data: { access_token?: string },
-}
+|}>
 
-export type User = {|
+export type User = $ReadOnly<{|
   id: number,
   stars: ?number,
   subscribed: boolean,
@@ -20,13 +20,13 @@ export type User = {|
   last_name: string,
   email: string,
   social_auth: SocialUser[],
-|}
+|}>
 
-export type Subscribe = {|
+export type Subscribe = $ReadOnly<{|
   status: boolean,
-|}
+|}>
 
-export type PromiseStateType<T> = {
+export type PromiseStateType<T> = $ReadOnly<{|
   pending: boolean,
   rejected: boolean,
   fulfilled: boolean,
@@ -36,4 +36,4 @@ export type PromiseStateType<T> = {
       status: number,
     },
   },
-}
+|}>
