@@ -2,24 +2,26 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8.12
+      - image: circleci/node:10.15
     working_directory: ~/repo
 
     steps:
       - checkout
 
       - restore_cache:
+          name: Restore Yarn Package Cache
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+            - yarn-packages-{{ checksum "yarn.lock" }}
 
-      - run: yarn install
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile
 
       - save_cache:
+          name: Save Yarn Package Cache
           paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+            - ~/.cache/yarn
+          key: yarn-packages-{{ checksum "yarn.lock" }}
 
       # run tests!
       - run: CI=true yarn test
