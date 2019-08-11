@@ -62,8 +62,8 @@
     "babel-loader": "8.0.6",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "flow-bin": "^0.98.0",
-    "flow-typed": "^2.5.2",
+    "flow-bin": "^0.105.1",
+    "flow-typed": "^2.6.1",
     "react-test-renderer": "^16.2.0"
   },
   "browserslist": {

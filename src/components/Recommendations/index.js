@@ -20,6 +20,7 @@ type Props = {
   error: boolean,
   items: Item[],
   user: User,
+  loading?: boolean,
 }
 
 export const Recommendations = ({ loading, items, error, user }: Props) => {
