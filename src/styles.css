@@ -1,0 +1,17 @@
+.h1 {
+  font-size: 4em !important;
+}
+
+.h2 {
+  font-size: 1.7em !important;
+}
+
+@media (max-width: 700px) {
+  .h1 {
+    font-size: 2em !important;
+  }
+
+  .h2 {
+    font-size: 1.5em !important;
+  }
+}

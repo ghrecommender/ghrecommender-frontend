@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Statistics /> 1`] = `
+<div
+  className="ui small inverted statistics"
+>
+  <div
+    className="ui statistic"
+  >
+    <div
+      className="value"
+    >
+      19,925,204
+    </div>
+    <div
+      className="label"
+    >
+      Users
+    </div>
+  </div>
+  <div
+    className="ui statistic"
+  >
+    <div
+      className="value"
+    >
+      64,245,061
+    </div>
+    <div
+      className="label"
+    >
+      Repositories
+    </div>
+  </div>
+  <div
+    className="ui statistic"
+  >
+    <div
+      className="value"
+    >
+      81,302,007
+    </div>
+    <div
+      className="label"
+    >
+      Stars
+    </div>
+  </div>
+</div>
+`;

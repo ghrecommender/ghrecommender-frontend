@@ -1,0 +1,27 @@
+{
+  "name": "ghrecommender",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "upload": "aws s3 sync out/ s3://ghrecommender.io --cache-control max-age=86400 --acl=public-read",
+    "deploy": "yarn build && yarn next export && yarn upload"
+  },
+  "dependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-particles-js": "^2.7.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "typescript": "5.0.3"
+  }
+}
